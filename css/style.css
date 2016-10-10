@@ -68,6 +68,11 @@ img{
     color: white;
 }
 
+.logo{
+    margin: 0 auto;
+    width: 40%;
+}
+
 /*end about section style*/
 /*start skill section style*/
 .skill_section{
