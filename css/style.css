@@ -19,6 +19,7 @@ body{
     width: 100%;
     min-height: 100vh;
     border: 10px solid black;
+    text-align: justify;
 }
 
 .section_title{
@@ -27,6 +28,13 @@ body{
 
 img{
     width: 100%;
+}
+
+.center_display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
 }
 
 /*end common style*/
@@ -92,18 +100,19 @@ img{
 /*end skill section style*/
 
 /*start experience section style*/
-/*end experience section style*/
-.center_display{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 80vh;
+.experience_item{
+    padding: 10px;
+    margin: 5px;
+    transition: all 1s;
 }
+.experience_item:hover{
+    -webkit-box-shadow: 0px 3px 20px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 3px 20px -6px rgba(0,0,0,0.75);
+    box-shadow: 0px 3px 20px -6px rgba(0,0,0,0.75);
+    cursor: pointer;
 
-.hello{
-    width: 100px;
-    height: 100px;
-    margin: 10px;
-    background: red;
 }
+/*end experience section style*/
+
+
 
