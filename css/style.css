@@ -17,7 +17,7 @@ body{
     margin: 0;
     padding: 0;
     width: 100%;
-    min-height: 100vh;
+    height: 100vh;
     border: 10px solid black;
     text-align: justify;
 }
@@ -40,12 +40,8 @@ img{
 /*end common style*/
 
 /*start about section style*/
-.about_section{
-    position: relative;
-}
 .person_info{
     margin: 0 auto;
-    margin-top: 20%;
     text-align: center;
 }
 .name h1{
